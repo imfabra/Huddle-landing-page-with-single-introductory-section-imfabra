@@ -1,0 +1,8 @@
+.hero__headline {
+    font: var(--haedline2);
+    text-align: center;
+    color: var(--color-text-main);
+
+    margin-block-start: 0;
+    margin-block-end: 0;
+}

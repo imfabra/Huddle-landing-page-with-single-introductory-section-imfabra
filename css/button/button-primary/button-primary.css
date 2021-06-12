@@ -1,0 +1,18 @@
+.button-primary {
+    font: var(--text-button);
+    color: var(--color-background);
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+
+    border-radius: 25px; 
+    block-size: 40px;
+    inline-size: 200px;
+    margin-block-start: 8px;
+
+    
+
+    background-color: var(--color-text-main);
+}

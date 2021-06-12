@@ -1,0 +1,13 @@
+@import './__nav/footer__nav.css';
+
+@import './__link/footer__link.css';
+@import './__link-img/footer__link-img.css';
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-block-start: 65px;
+    padding-block-end: 40px;
+}

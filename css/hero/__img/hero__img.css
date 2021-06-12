@@ -1,0 +1,5 @@
+.hero__img {
+    inline-size: 302px;
+    block-size: 215px;
+    margin-inline-start: -3px;
+}

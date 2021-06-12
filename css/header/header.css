@@ -1,0 +1,10 @@
+@import './__logo/header__logo.css';
+
+.header {
+    inline-size: 100%;
+    block-size: 95px;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}

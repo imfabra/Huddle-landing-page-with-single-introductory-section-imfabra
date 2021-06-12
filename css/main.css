@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import './button/button-primary/button-primary.css';
+@import './header/header.css';
+@import './hero/hero.css';
+@import './footer/footer.css';
+
+:root {
+    --color-background: hsl(257, 40%, 49%);
+    --color-text-main: white;
+
+    --font-base: 'Poppins', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+    --haedline2: 600 24px/36px var(--font-base);
+    --text-body2: 16px/24px var(--font-body);
+    --text-button: 12px/18px var(--font-base);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    /* outline: 1px solid red; */
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-base);
+
+    margin: 0;
+    padding: 0;
+    inline-size: 100vw;
+    min-block-size: 100vh;
+
+    background-color: var(--color-background);
+    background-image: url('../images/bg-mobile.svg');
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;   
+}
+
+.container {
+    block-size: 100vh;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}

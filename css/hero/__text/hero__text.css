@@ -1,0 +1,8 @@
+.hero__text {
+    font: var(--text-body2);
+    text-align: center;
+    color: var(--color-text-main);
+
+    margin-block-start: -4px;
+    margin-block-end: 0;
+}

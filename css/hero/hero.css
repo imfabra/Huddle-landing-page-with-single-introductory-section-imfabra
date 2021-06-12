@@ -1,0 +1,13 @@
+@import './__img/hero__img.css';
+@import './__content/hero__content.css';
+@import './__headline/hero__headline.css';
+@import './__text/hero__text.css';
+
+.hero {
+    margin-block-start: calc(127px - 98px);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}

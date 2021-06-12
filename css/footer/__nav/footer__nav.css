@@ -1,0 +1,12 @@
+.footer__nav {
+    list-style: none;
+
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 11px;
+}
