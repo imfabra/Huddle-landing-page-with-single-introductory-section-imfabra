@@ -3,6 +3,7 @@
     text-align: center;
     color: var(--color-text-main);
 
+    inline-size: 102%;
     margin-block-start: -4px;
     margin-block-end: 0;
 }
