@@ -3,14 +3,4 @@
 .footer__link-img {
     font-size: 13px;
     color: var(--color-text-main);
-    border: 0.8px solid var(--color-text-main);
-    border-radius: 50%;
-
-    block-size: 28px;
-    inline-size: 28px;
-
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
