@@ -6,3 +6,10 @@
     margin-block-start: 0;
     margin-block-end: 0;
 }
+
+@media only screen and (min-width: 1024px) {
+    .hero__headline {
+        font: var(--headline1);
+        text-align: start;
+    }
+}

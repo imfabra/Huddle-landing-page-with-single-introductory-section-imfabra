@@ -6,7 +6,11 @@
     text-align: center;
     block-size: 28px;
     inline-size: 28px;
+}
 
-    border-radius: 50%;
-    border: 0.8px solid var(--color-text-main);
+@media only screen and (min-width: 1440px) {
+    .footer__link {
+        block-size: 40px;
+        inline-size: 40px;
+    }
 }

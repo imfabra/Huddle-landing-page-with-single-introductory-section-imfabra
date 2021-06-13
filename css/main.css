@@ -12,16 +12,18 @@
 
     --font-base: 'Poppins', sans-serif;
     --font-body: 'Open Sans', sans-serif;
+    --headline1: 600 40px/60px var(--font-base);
     --haedline2: 600 24px/36px var(--font-base);
+    --text-body1: 18px/27px var(--font-body);
     --text-body2: 16px/24px var(--font-body);
-    --text-button: 12px/18px var(--font-base);
+    --text-button1: 18px/27px var(--font-base);
+    --text-button2: 12px/18px var(--font-base);
 }
 
 *,
 *:before,
 *:after {
     box-sizing: inherit;
-    /* outline: 1px solid red; */
 }
 
 html {
@@ -36,6 +38,9 @@ body {
     inline-size: 100vw;
     min-block-size: 100vh;
 
+    display: flex;
+    justify-content: center;
+
     background-color: var(--color-background);
     background-image: url('../images/bg-mobile.svg');
     background-size: 100%;
@@ -43,7 +48,31 @@ body {
 }
 
 .container {
-    block-size: 100vh;
+    block-size: 100%;
+    max-inline-size: 1440px;
+    
     margin-inline-start: 40px;
     margin-inline-end: 40px;
+}
+
+@media only screen and (min-width: 580px) {
+    .container {
+        margin-inline-start: 120px;
+        margin-inline-end: 120px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        margin-inline-start: 80px;
+        margin-inline-end: 80px;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    body {
+        background-image: url('../images/bg-desktop.svg');
+        background-size: contain;
+        background-position: 0 center;
+    }
 }

@@ -2,3 +2,11 @@
     inline-size: 102%;
     block-size: auto;
 }
+
+@media only screen and (min-width: 1024px) {
+    .hero__img {
+        inline-size: 710px;
+        margin-inline-start: -8px;
+        margin-block-end: -5px;
+    }
+}

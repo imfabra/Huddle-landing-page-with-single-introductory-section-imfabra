@@ -1,7 +1,8 @@
 .button-primary {
-    font: var(--text-button);
+    font: var(--text-button2);
     color: var(--color-background);
     text-decoration: none;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.269022);
 
     display: flex;
     justify-content: center;
@@ -12,7 +13,15 @@
     inline-size: 200px;
     margin-block-start: 8px;
 
-    
-
     background-color: var(--color-text-main);
+}
+
+@media only screen and (min-width: 1440px) {
+    .button-primary {
+        font: var(--text-button1);
+        block-size: 56px;
+        border-radius: calc(56px/2);
+        box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.258633);
+        margin-block-start: 0;
+    }
 }

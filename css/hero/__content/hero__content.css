@@ -8,3 +8,13 @@
     margin-block-start: 60px;
     
 }
+
+@media only screen and (min-width: 1440px) {
+    .hero__content {
+        margin-block-start: 44px;
+        inline-size: 520px;
+        align-items: flex-start;
+        min-inline-size: unset;
+        gap: 24px;
+    }
+}

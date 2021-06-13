@@ -3,4 +3,22 @@
 .footer__link-img {
     font-size: 13px;
     color: var(--color-text-main);
+    border: 0.8px solid var(--color-text-main);
+    border-radius: 50%;
+
+    block-size: 28px;
+    inline-size: 28px;
+
+    padding-block-start: 25%;
+}
+
+@media only screen and (min-width: 1440px) {
+    .footer__link-img {
+        font-size: 20px;
+
+        block-size: 40px;
+        inline-size: 40px;
+
+        border: 1.18px solid var(--color-text-main);
+    }
 }
