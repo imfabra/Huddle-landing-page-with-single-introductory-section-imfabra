@@ -9,7 +9,7 @@
     align-items: center;
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1024px) {
     .header {
         block-size: 160px;
     }

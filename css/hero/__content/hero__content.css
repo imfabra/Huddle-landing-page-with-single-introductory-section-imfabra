@@ -9,7 +9,7 @@
     
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1366px) {
     .hero__content {
         margin-block-start: 44px;
         inline-size: 520px;

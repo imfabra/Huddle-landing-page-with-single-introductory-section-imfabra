@@ -12,7 +12,12 @@
     .hero__text {
         font: var(--text-body1);
         inline-size: auto;
-        text-align: start;
         opacity: 85%;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    .hero__text {
+        text-align: start;
     }
 }
